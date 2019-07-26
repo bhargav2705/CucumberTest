@@ -1,0 +1,114 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3193994900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify the broken links on the documentation page.",
+        "description": "",
+        "id": "bat-testing;verify-the-broken-links-on-the-documentation-page.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13357752400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigates to the documentation page.",
+            "match": {
+              "location": "stepDefinition.user_navigates_to_the_documentation_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1808879200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "find all the links in the page except header and footer",
+            "match": {
+              "location": "stepDefinition.find_all_the_links_in_the_page_except_header_and_footer()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 42923175700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify the response is correct and no broken links",
+            "match": {
+              "location": "stepDefinition.verify_the_response_is_correct_and_no_broken_links()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 506028400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Verify the page is loaded correctly",
+        "description": "",
+        "id": "bat-testing;verify-the-page-is-loaded-correctly",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10591528300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user navigates to the documentation page.",
+            "match": {
+              "location": "stepDefinition.user_navigates_to_the_documentation_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 136482693300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on each link identified and verify the page is loaded",
+            "match": {
+              "location": "stepDefinition.click_on_each_link_identified_and_verify_the_page_is_loaded()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "BAT Testing",
+    "description": "",
+    "id": "bat-testing",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/SampleFeature.feature"
+  }
+]
