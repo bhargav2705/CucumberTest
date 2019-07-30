@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="208.864052">
-<testcase classname="BAT Testing" name="Verify the broken links on the documentation page." time="61.283802">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="216.918064">
+<testcase classname="BAT Testing" name="Verify the broken links on the documentation page." time="68.51752">
 <system-out><![CDATA[Given user navigates to the documentation page..............................passed
 Then find all the links in the page except header and footer................passed
 And verify the response is correct and no broken links......................passed
 ]]></system-out>
 </testcase>
-<testcase classname="BAT Testing" name="Verify the page is loaded correctly" time="147.58025">
+<testcase classname="BAT Testing" name="Verify the page is loaded correctly" time="148.400544">
 <system-out><![CDATA[Given user navigates to the documentation page..............................passed
 Then click on each link identified and verify the page is loaded............passed
 ]]></system-out>

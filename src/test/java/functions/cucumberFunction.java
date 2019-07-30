@@ -74,16 +74,18 @@ public class cucumberFunction
 		for (int i=0;i<pageurl.size();i++)
 		{
 			driver.get(pageurl.get(i));
-			if (!(js.executeScript("return document.readyState").toString().equals("complete")))
-			{
-				status=false;
-				System.out.println("Page is not loaded :" +pageurl.get(i));
-				break;
+		
+		  status = (Boolean)js.executeScript("return window.angular === undefined");
+         if(status==true)
+	 	  	{
+				
+       		System.out.println("Angular is  not loaded :" +pageurl.get(i));
+			break;
 			}
 		 
 			else
 			{
-				System.out.println("Page is loaded :" +pageurl.get(i));
+				System.out.println("Angular is loaded :" +pageurl.get(i));
 			}
 			
 		}

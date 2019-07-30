@@ -80,15 +80,15 @@ public void teardown()
 	@Then("^click on each link identified and verify the page is loaded$")
 	public void click_on_each_link_identified_and_verify_the_page_is_loaded() throws Throwable 
 	{
-	    Boolean pagestatus=cucumberFunction.verifyPageLoad(driver);
-	    if (pagestatus==false)
+	 Boolean pagestatus=cucumberFunction.verifyPageLoad(driver);
+   if (pagestatus==true)
 	    {
-	    	System.out.println("Page is not loaded");
+	    	System.out.println("Angular is not loaded");
 	    }
 	    
 	    else
 	    {
-	    	System.out.println("All pages are getting loaded correctly");
+	    	System.out.println("Angular is getting loaded correctly for all pages");
 	    }
 	    
 	    
